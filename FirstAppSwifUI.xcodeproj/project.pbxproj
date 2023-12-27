@@ -14,6 +14,8 @@
 		BDEDA4262B3B4F8800AA6771 /* FirstAppSwifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA4252B3B4F8800AA6771 /* FirstAppSwifUITests.swift */; };
 		BDEDA4302B3B4F8800AA6771 /* FirstAppSwifUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA42F2B3B4F8800AA6771 /* FirstAppSwifUIUITests.swift */; };
 		BDEDA4322B3B4F8800AA6771 /* FirstAppSwifUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA4312B3B4F8800AA6771 /* FirstAppSwifUIUITestsLaunchTests.swift */; };
+		BDEDA43F2B3B71D900AA6771 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA43E2B3B71D900AA6771 /* CircleImage.swift */; };
+		BDEDA4412B3B76A600AA6771 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA4402B3B76A600AA6771 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BDEDA42B2B3B4F8800AA6771 /* FirstAppSwifUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppSwifUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEDA42F2B3B4F8800AA6771 /* FirstAppSwifUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppSwifUIUITests.swift; sourceTree = "<group>"; };
 		BDEDA4312B3B4F8800AA6771 /* FirstAppSwifUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppSwifUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDEDA43E2B3B71D900AA6771 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		BDEDA4402B3B76A600AA6771 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				BDEDA4142B3B4F8600AA6771 /* FirstAppSwifUIApp.swift */,
 				BDEDA4162B3B4F8600AA6771 /* ContentView.swift */,
 				BDEDA4182B3B4F8800AA6771 /* Assets.xcassets */,
+				BDEDA43E2B3B71D900AA6771 /* CircleImage.swift */,
+				BDEDA4402B3B76A600AA6771 /* MapView.swift */,
 				BDEDA41A2B3B4F8800AA6771 /* Preview Content */,
 			);
 			path = FirstAppSwifUI;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDEDA4172B3B4F8600AA6771 /* ContentView.swift in Sources */,
+				BDEDA4412B3B76A600AA6771 /* MapView.swift in Sources */,
 				BDEDA4152B3B4F8600AA6771 /* FirstAppSwifUIApp.swift in Sources */,
+				BDEDA43F2B3B71D900AA6771 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
