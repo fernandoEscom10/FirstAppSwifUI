@@ -25,6 +25,9 @@
 		BDCF6E172B3CD0080091C0D6 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF6E132B3CD0080091C0D6 /* HikeGraph.swift */; };
 		BDCF6E182B3CD0080091C0D6 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF6E142B3CD0080091C0D6 /* HikeDetail.swift */; };
 		BDCF6E192B3CD0080091C0D6 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF6E152B3CD0080091C0D6 /* HikeView.swift */; };
+		BDCF6E1C2B3CE5B10091C0D6 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF6E1B2B3CE5B10091C0D6 /* CategoryHome.swift */; };
+		BDCF6E1E2B3CE7A90091C0D6 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF6E1D2B3CE7A90091C0D6 /* CategoryRow.swift */; };
+		BDCF6E212B3CE89F0091C0D6 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF6E202B3CE89F0091C0D6 /* CategoryItem.swift */; };
 		BDEDA4152B3B4F8600AA6771 /* FirstAppSwifUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA4142B3B4F8600AA6771 /* FirstAppSwifUIApp.swift */; };
 		BDEDA4172B3B4F8600AA6771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA4162B3B4F8600AA6771 /* ContentView.swift */; };
 		BDEDA4192B3B4F8800AA6771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEDA4182B3B4F8800AA6771 /* Assets.xcassets */; };
@@ -72,6 +75,9 @@
 		BDCF6E132B3CD0080091C0D6 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		BDCF6E142B3CD0080091C0D6 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		BDCF6E152B3CD0080091C0D6 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		BDCF6E1B2B3CE5B10091C0D6 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		BDCF6E1D2B3CE7A90091C0D6 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		BDCF6E202B3CE89F0091C0D6 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		BDEDA4112B3B4F8600AA6771 /* FirstAppSwifUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAppSwifUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEDA4142B3B4F8600AA6771 /* FirstAppSwifUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppSwifUIApp.swift; sourceTree = "<group>"; };
 		BDEDA4162B3B4F8600AA6771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +189,16 @@
 			path = Hikes;
 			sourceTree = "<group>";
 		};
+		BDCF6E1A2B3CE58F0091C0D6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BDCF6E1B2B3CE5B10091C0D6 /* CategoryHome.swift */,
+				BDCF6E1D2B3CE7A90091C0D6 /* CategoryRow.swift */,
+				BDCF6E202B3CE89F0091C0D6 /* CategoryItem.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		BDEDA4082B3B4F8600AA6771 = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +222,7 @@
 		BDEDA4132B3B4F8600AA6771 /* FirstAppSwifUI */ = {
 			isa = PBXGroup;
 			children = (
+				BDCF6E1A2B3CE58F0091C0D6 /* Categories */,
 				BDCF6E112B3CD0080091C0D6 /* Hikes */,
 				BDCF6E022B3CBDBC0091C0D6 /* Badges */,
 				BDCF6DF32B3C7E4B0091C0D6 /* Resources */,
@@ -375,13 +392,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCF6E1E2B3CE7A90091C0D6 /* CategoryRow.swift in Sources */,
 				BDEDA4172B3B4F8600AA6771 /* ContentView.swift in Sources */,
+				BDCF6E1C2B3CE5B10091C0D6 /* CategoryHome.swift in Sources */,
 				BDCF6E172B3CD0080091C0D6 /* HikeGraph.swift in Sources */,
 				BDCF6E0C2B3CCB330091C0D6 /* Badge.swift in Sources */,
 				BDEDA4412B3B76A600AA6771 /* MapView.swift in Sources */,
 				BDCF6E162B3CD0080091C0D6 /* GraphCapsule.swift in Sources */,
 				BDEDA4152B3B4F8600AA6771 /* FirstAppSwifUIApp.swift in Sources */,
 				BDCF6DFD2B3CB9170091C0D6 /* FavoriteButton.swift in Sources */,
+				BDCF6E212B3CE89F0091C0D6 /* CategoryItem.swift in Sources */,
 				BDCF6E182B3CD0080091C0D6 /* HikeDetail.swift in Sources */,
 				BDCF6E042B3CBDD20091C0D6 /* HexagonParameters.swift in Sources */,
 				BDCF6E102B3CCF330091C0D6 /* Hike.swift in Sources */,
